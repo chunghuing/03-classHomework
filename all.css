@@ -1,3 +1,17 @@
 body {
     background-color: burlywood;
+    font-family: "微軟正黑體";
 }
+
+table{  
+    width:600px;         
+    /* 表格height屬性可設置可不設置,建議不設置 */
+    border-collapse:separate;
+} 
+
+table td{  
+    padding: 10px;
+    border:#000000 1px solid;
+    text-align: center;    
+    /* 使<td>標簽中的內容居中顯示，若是<th>標簽，沒有此行代碼亦可自動居中 */
+}  
