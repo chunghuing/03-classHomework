@@ -117,3 +117,19 @@ function undo(e) {
 
 //事件監聽
 reset.addEventListener('click', undo);
+
+//功能三：用 for 迴圈，1 加到 10
+var sum=0;
+for (var i=0;i<11;i++){
+    sum+=i
+}
+console.log(sum);
+
+
+var item=0;
+var all=0;
+while (item<11){
+    all +=item;
+    item++;
+}
+console.log(all);
