@@ -1,17 +1,126 @@
 body {
-    background-color: burlywood;
     font-family: "微軟正黑體";
 }
 
-table{  
-    width:600px;         
-    /* 表格height屬性可設置可不設置,建議不設置 */
-    border-collapse:separate;
-} 
+#d2 div {
+    width: 80px;
+    height: 30px;
+    border: 1px solid black;
+    float:left;
+    text-align: center;
+    line-height: 30px;
+}
 
-table td{  
+.inputstyle { 
+    margin-top: 50px;
+    margin-bottom: 50px;
+    
+    border: none;
+    border-radius: 5px;
     padding: 10px;
-    border:#000000 1px solid;
-    text-align: center;    
-    /* 使<td>標簽中的內容居中顯示，若是<th>標簽，沒有此行代碼亦可自動居中 */
-}  
+    background-color: dodgerblue;
+}
+
+.inputstyle:focus{
+    outline:none
+}
+
+body {
+    position: relative;
+    font-family: 'Roboto Condensed', sans-serif, "微軟正黑體";
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.clearfix {
+    clear: both;
+}
+
+.calculator {
+    max-width: 600px;
+    margin: 20px auto;
+    border: solid 4px #444;
+    padding: 30px;
+    background-color: #f3f3f3;
+    box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.2);
+}
+
+.calculator h1 {
+    font-weight: 200;
+    font-size: 2em;
+    text-align: center;
+    padding: 10px 20px;
+    margin: -20px -20px 0 -20px;
+    border-bottom: solid 4px #444;
+    background-color: rgb(238, 202, 1);
+    color: #f3f3f3;
+    font-weight: 600;
+}
+
+.calculator h2 {
+    margin: 20px;
+    text-align: center;
+}
+
+.fields .bmi_calcu {
+    padding: 16px 3px;
+    margin-top: 20px;
+    BORDER: 3px solid #444;
+    font-size: 1.3em;
+    align-items: center;
+}
+
+.fields label {
+    margin-left: 20px;
+}
+
+#resultText {
+    text-align: center;
+    font-weight: 100;
+    font-size: 100px;
+}
+
+#bmiText {
+    margin: 0 auto;
+    text-align: center;
+    padding: 12px 5px;
+    font-size: 1.6rem;
+    color: #f3f3f3;
+    background-color: rgb(238, 202, 1);
+    width: 20%;
+}
+
+.btn_block {
+    text-align: center;
+}
+
+.btn_block .reset {
+    cursor: pointer;
+    margin-left: 10px;
+    color: #f3f3f3;
+    padding: 6px;
+    font-size: 1.2rem;
+    border-radius: 50%;
+    background: rgb(238, 202, 1);
+}
+
+input[type="number"] {
+    font-size: 1.5em;
+    margin-left: 15px;
+    width: 26%;
+    margin-right: 15px;
+    border: solid 3px;
+}
+
+input[type="submit"] {
+    cursor: pointer;
+    margin: 30px -5px 0px 20px;
+    width: 22%;
+    padding: 8px 10px;
+    border: 4px solid #444;
+    font-size: 1.6em;
+}

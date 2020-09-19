@@ -1,13 +1,63 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <script src="./all.js"></script>
     <link rel="stylesheet" href="./all.css">
 </head>
+
 <body>
+    <div>
+        <!-- 乘法表 -->
+        <div id="d1"></div>
+            <input class="inputstyle" type="button" value="生成九九乘法表" onclick="f1()"/>
+        <div>
+
+        <!-- BMI -->
+        <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+
+        <section class="calculator">
+            <section class="fields">
+                <h1>BMI 計算機</h1>
+
+                <div class="bmi_calcu">
+                    <label for="bodyHeight">身高 :</label>
+                    <input type="number" class="bodyHeight" min="0">CM
+
+                    <label for="bodyWeight">體重:</label>
+                    <input type="number" class="bodyWeight" min="0">Kg
+                </div>
+
+                <div class="btn_block">
+                    <input type="submit" value="計算" class="calcualteBMI">
+                    <i class="fas fa-undo reset" title="重新整理"></i>
+                </div>
+
+                
+            </section>
+
+            <section class="result">
+                <h2 class="result_txt">你的BMI：</h2>
+
+                <p id="bmiText"></p>
+                <p id="resultText">0</p>
+
+            </section>
+
+            <section class="bottom">
+            </section>
+            
+        </section>
+    </div>
+
+    </div>
     
+
+    
+    <script src="./all.js"></script>
 </body>
+
 </html>
